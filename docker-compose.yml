@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    volumes: [drift-data:/data]
+    ports: ["8002:8000"]
+  web:
+    build: ./web
+    ports: ["8086:80"]
+    depends_on: [api]
+volumes: {drift-data: {}}

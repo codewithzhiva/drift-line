@@ -1,0 +1,1 @@
+{"name":"drift-line-web","private":true,"version":"0.1.0","type":"module","scripts":{"build":"tsc -b && vite build"},"dependencies":{"vite":"latest","typescript":"latest","react":"latest","react-dom":"latest"},"devDependencies":{"@types/react":"latest","@types/react-dom":"latest"}}
